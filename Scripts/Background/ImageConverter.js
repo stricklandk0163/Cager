@@ -39,7 +39,7 @@ chrome.runtime.onMessage.addListener(
                   sendResponse({ cagedImage: canvas.toDataURL() });
               });
 
-              //Run the tracker on the c
+              //Run the tracker on the image
               tracking.track(img, tracker);
               
           });
